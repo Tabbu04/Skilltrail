@@ -14,6 +14,61 @@ export const translations = {
       roadmap: "Native App",
     },
 
+    home: {
+      gov: "Government of Maharashtra · DSEEI · PS 26135",
+
+      titleLine1: "Maharashtra Skilling Outcomes",
+      titleLine2: "& Longitudinal ROI",
+
+      description:
+        "Continuous 3-to-36 month post-training tracking, triangulating trainee self-reports, simulated EPFO signals, and employer confirmation — with a fraud-aware verification layer.",
+
+      stats: {
+        totalTrained: "Total trained",
+        certified: "certified",
+        retention: "12-month retention",
+        verified: "Verified, not self-reported",
+        wageMultiplier: "Wage multiplier",
+        trust: "Trust index",
+        trustSub: "EPFO + employer + peer signals",
+      },
+
+      features: {
+        passport: {
+          title: "Career Passport",
+          desc: "One QR-based ID unifying training + employment across schemes.",
+        },
+        fraud: {
+          title: "Fraud Detector",
+          desc: "Flags reused employer numbers and fabricated placements.",
+        },
+        ivr: {
+          title: "IVR Follow-ups",
+          desc: "Voice-call fallback for trainees without reliable smartphone access.",
+        },
+        ml: {
+          title: "Real Outcome ML",
+          desc: "Explainable model for why placements fail — not vibes.",
+        },
+      },
+
+      charts: {
+        retentionTitle: "Statewide retention curve (3–36 months)",
+        retentionSubtitle: "Cohort persistence vs state benchmark",
+        wageTitle: "Wage progression by sector (₹/month)",
+        wageSubtitle: "Stipend vs 12-month vs 24-month verified earnings",
+        stipend: "Stipend",
+        month12: "12M",
+        month24: "24M",
+      },
+
+      map: {
+        title: "Maharashtra district outcome map",
+        subtitle: "GIS view — click a district for details",
+        open: "Open full explorer",
+      },
+    },
+
     footer:
       "SkillTrail · SIH 2026 · Problem Statement 135 · Prototype data is synthetic/demo, clearly marked",
 
@@ -242,6 +297,61 @@ export const translations = {
       roadmap: "मोबाइल ऐप",
     },
 
+      home: {
+          gov: "महाराष्ट्र शासन · कौशल, रोजगार, उद्यमिता एवं नवाचार विभाग · समस्या विवरण 26135",
+
+          titleLine1: "महाराष्ट्र कौशल विकास परिणाम",
+          titleLine2: "और दीर्घकालिक ROI",
+
+          description:
+              "प्रशिक्षण के बाद 3 से 36 महीने तक निरंतर ट्रैकिंग, प्रशिक्षु की स्वयं-रिपोर्ट, सिम्युलेटेड EPFO संकेतों और नियोक्ता पुष्टि को मिलाकर रोजगार परिणामों की निगरानी।",
+
+          stats: {
+              totalTrained: "कुल प्रशिक्षित",
+              certified: "प्रमाणित",
+              retention: "12 महीने की रिटेंशन",
+              verified: "सत्यापित, केवल स्वयं-रिपोर्ट नहीं",
+              wageMultiplier: "वेतन गुणक",
+              trust: "विश्वास सूचकांक",
+              trustSub: "EPFO + नियोक्ता + सहकर्मी संकेत",
+          },
+
+          features: {
+              passport: {
+                  title: "करियर पासपोर्ट",
+                  desc: "एक QR-आधारित आईडी जो विभिन्न योजनाओं में प्रशिक्षण और रोजगार रिकॉर्ड को जोड़ती है।",
+              },
+              fraud: {
+                  title: "धोखाधड़ी डिटेक्टर",
+                  desc: "दोहराए गए नियोक्ता नंबर और संदिग्ध प्लेसमेंट को चिन्हित करता है।",
+              },
+              ivr: {
+                  title: "IVR फॉलो-अप",
+                  desc: "विश्वसनीय स्मार्टफोन सुविधा न रखने वाले प्रशिक्षुओं के लिए वॉइस-कॉल विकल्प।",
+              },
+              ml: {
+                  title: "परिणाम ML",
+                  desc: "प्लेसमेंट विफल होने के कारणों के लिए समझाने योग्य मॉडल।",
+              },
+          },
+
+          charts: {
+              retentionTitle: "राज्यव्यापी रिटेंशन वक्र (3–36 महीने)",
+              retentionSubtitle: "कोहोर्ट की निरंतरता बनाम राज्य बेंचमार्क",
+              wageTitle: "क्षेत्र के अनुसार वेतन प्रगति (₹/माह)",
+              wageSubtitle: "स्टाइपेंड बनाम 12-महीने और 24-महीने की सत्यापित आय",
+              stipend: "स्टाइपेंड",
+              month12: "12M",
+              month24: "24M",
+          },
+
+          map: {
+              title: "महाराष्ट्र जिला परिणाम मानचित्र",
+              subtitle: "GIS दृश्य — विवरण के लिए किसी जिले पर क्लिक करें",
+              open: "पूरा एक्सप्लोरर खोलें",
+          },
+      },
+
     footer:
       "SkillTrail · SIH 2026 · समस्या विवरण 135 · प्रदर्शित डेटा सिंथेटिक/डेमो है",
 
@@ -469,6 +579,61 @@ export const translations = {
       fraud: "फसवणूक शोधक",
       roadmap: "मोबाइल अॅप",
     },
+
+      home: {
+          gov: "महाराष्ट्र शासन · कौशल्य, रोजगार, उद्योजकता व नाविन्य विभाग · समस्या विधान 26135",
+
+          titleLine1: "महाराष्ट्र कौशल्य विकास परिणाम",
+          titleLine2: "आणि दीर्घकालीन ROI",
+
+          description:
+              "प्रशिक्षणानंतर 3 ते 36 महिन्यांपर्यंत सातत्यपूर्ण ट्रॅकिंग, प्रशिक्षणार्थी स्वयं-अहवाल, सिम्युलेटेड EPFO संकेत आणि नियोक्ता पुष्टी यांचा वापर करून रोजगार परिणामांचा मागोवा.",
+
+          stats: {
+              totalTrained: "एकूण प्रशिक्षित",
+              certified: "प्रमाणित",
+              retention: "12 महिन्यांचे रिटेन्शन",
+              verified: "पडताळलेले, केवळ स्वयं-अहवाल नाही",
+              wageMultiplier: "वेतन गुणक",
+              trust: "विश्वास निर्देशांक",
+              trustSub: "EPFO + नियोक्ता + सहकारी संकेत",
+          },
+
+          features: {
+              passport: {
+                  title: "करिअर पासपोर्ट",
+                  desc: "विविध योजनांमधील प्रशिक्षण आणि रोजगार इतिहास एकत्र करणारी QR-आधारित ओळख.",
+              },
+              fraud: {
+                  title: "फसवणूक शोधक",
+                  desc: "पुनर्वापरलेले नियोक्ता क्रमांक आणि संशयास्पद प्लेसमेंट ओळखतो.",
+              },
+              ivr: {
+                  title: "IVR फॉलो-अप",
+                  desc: "विश्वसनीय स्मार्टफोन सुविधा नसलेल्या प्रशिक्षणार्थ्यांसाठी व्हॉइस-कॉल पर्याय.",
+              },
+              ml: {
+                  title: "परिणाम ML",
+                  desc: "प्लेसमेंट अयशस्वी होण्याची कारणे समजावून सांगणारे मॉडेल.",
+              },
+          },
+
+          charts: {
+              retentionTitle: "राज्यव्यापी रिटेन्शन वक्र (3–36 महिने)",
+              retentionSubtitle: "कोहोर्ट सातत्य विरुद्ध राज्य बेंचमार्क",
+              wageTitle: "क्षेत्रानुसार वेतन प्रगती (₹/महिना)",
+              wageSubtitle: "स्टायपेंड विरुद्ध 12-महिने आणि 24-महिन्यांची पडताळलेली कमाई",
+              stipend: "स्टायपेंड",
+              month12: "12M",
+              month24: "24M",
+          },
+
+          map: {
+              title: "महाराष्ट्र जिल्हा परिणाम नकाशा",
+              subtitle: "GIS दृश्य — तपशील पाहण्यासाठी जिल्ह्यावर क्लिक करा",
+              open: "पूर्ण एक्सप्लोरर उघडा",
+          },
+      },
 
     footer:
       "SkillTrail · SIH 2026 · समस्या विधान 135 · दाखवलेला डेटा सिंथेटिक/डेमो आहे",
